@@ -19,3 +19,32 @@ These rules can be modified inorder to add or delete new objects.
     ``` 
     C:\>python game.py
     ```
+
+# Sample Runs
+- When you execute the Game you see a Game Menu
+```
+                  Game Menu
+========================================
+ 1. Player v/s Computer
+ 2. Computer v/s Computer
+ X. Exit Game
+
+ Choose game option:
+```
+- Then if you choose option **1. Player v/s Computer**, it will ask user name and then takes you to a mode of **_Player v/s Computer_** game
+
+```
+ ============== Ashish v/s Computer(SkyNet-X) : Game Started ============
+
+         Object List
+----------------------------------------
+1 . Rock
+2 . Paper
+3 . Scissor
+4 . Lizard
+5 . Spock
+S . Get Play Score
+X . Exit Play
+
+Ashish enter a choice to Throw:
+```
