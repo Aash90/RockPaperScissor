@@ -1,5 +1,5 @@
 # RockPaperScissor
-A python based 2 player terminal game.
+A python based terminal game for 2 players
 
 It is based on rules specified in [GAME_RULES](https://github.com/Aash90/RockPaperScissor/blob/master/game_objects.py).
 These rules can be modified inorder to add or delete new objects.
