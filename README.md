@@ -34,7 +34,7 @@ These rules can be modified inorder to add or delete new objects.
 - Then if you choose option **1. Player v/s Computer**, it will ask user name and then takes you to a mode of **_Player v/s Computer_** game
 
 ```
- ============== Ashish v/s Computer(SkyNet-X) : Game Started ============
+ ============== Player-X v/s Computer(SkyNet-X) : Game Started ============
 
          Object List
 ----------------------------------------
@@ -46,5 +46,71 @@ These rules can be modified inorder to add or delete new objects.
 S . Get Play Score
 X . Exit Play
 
-Ashish enter a choice to Throw:
+Player-X enter a choice to Throw:
 ```
+- Here user need to add a _choice_ option to throw for the Game.
+For E.g.
+```
+Player-X enter a choice to Throw: 3
+```
+This way user Choose to throw **Scissor** for the game.
+After this Computer chooses a option for itself in the Game. And then based on the rules defined in the [GAME_RULES](https://github.com/Aash90/RockPaperScissor/blob/master/game_objects.py) Winner is decided.
+```
+ ********************************************* Result ******************************************
+ SkyNet-X throws: Spock           Player-X throws: Scissor          -----> SkyNet-X Wins <-----
+ ***********************************************************************************************
+```
+As you can see the above match is won by _SkyNet-X_. Its the computer Name of the Game
+
+- User can play multiple rounds to their wish. And see the overall score. For this user need to enter option **S** , Its for _Get Play Score_
+
+```
+=============== Score Board ============
+        SkyNet-X: 2,   Player-X: 1
+========================================
+
+Player-X enter a choice to Throw: S
+
+```
+- Using **X** will get you back to main _Game Menu_
+
+- If you want to choose option **2. Computer v/s Computer** then enter **2** as your choice in main Game Menu.
+- It will take you to the Window of **Computer Arena**, where 2 computers battel for win _Jarvis v/s SkyNet-X_
+```
+============== Jarvis v/s SkyNet-X : Game Started ============
+         Option List
+----------------------------------------
+P . Throw
+S . Check Score
+X . Exit Play
+
+Enter Option to play:
+```
+- Unlike Player v/s Computer this window has no options for choice of objects. It has only option to start the **Play**(a.k.a Fight). Enter option **P** to initiate the match and then wait for the count down when each of the computer throw a object of their choice.
+```         Option List
+----------------------------------------
+P . Throw
+S . Check Score
+X . Exit Play
+
+ Waiting for Throw...: 1
+ :
+ : 
+....  !! Throw !! ...: 3
+********************************************* Result *********************************************
+Jarvis throws: Scissor          SkyNet-X throws: Rock           -----> SkyNet-X Wins <-----
+****************************************************************************************************
+Enter Option to play:
+```
+
+Here also the Winner is decided by the same rules as per [GAME_RULES](https://github.com/Aash90/RockPaperScissor/blob/master/game_objects.py)
+
+- Same as earlier you can use **S** to see score of the match and **X** to return back to main menu.
+```
+========= Score Board ===============
+  Jarvis: 1,     SkyNet-X: 1
+=====================================
+
+Enter Option to play: S
+```
+
