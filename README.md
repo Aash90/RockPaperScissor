@@ -17,7 +17,7 @@ _Note: Developed and tested on Windows 10 with Python3_
 
     Click on the **_game.py_** file
        
-       OR
+    OR
        
     From terminal execute cmd as shown below
     ``` 
