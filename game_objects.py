@@ -27,19 +27,3 @@ GAME_RULES = {
             },
 
 }
-
-class Choices(Enum):
-
-    Rock = 'I beat Scissor and Lizard'
-    Paper = 'Paper'
-    Scissor = 'Scissor'
-    Lizard = 'Lizard'
-    Spock = 'Spock'
-
-    def beats(self, other_choice):
-        beats_map = { self.Rock: other_choice in [self.Scissor, self.Lizard] }
-
-        return beats_map.get(self)
-
-
-
