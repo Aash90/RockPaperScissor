@@ -4,18 +4,22 @@ A python based terminal game for 2 players
 It is based on rules specified in [GAME_RULES](https://github.com/Aash90/RockPaperScissor/blob/master/game_objects.py).
 These rules can be modified inorder to add or delete new objects.
 
+_Note: Developed and tested on Windows 10 with Python3_
+
 # Requirements
 - Python3
 
 # How to Use
 1. Download the files [GAME](https://github.com/Aash90/RockPaperScissor/blob/master/game.py), and [GAME_RULES](https://github.com/Aash90/RockPaperScissor/blob/master/game_objects.py)
 
-2. Make sure both of above files are in same directory.
+2. Make sure both of the above files are in same directory.
 3. On Windows:
 
-  - Click on the **_game.py_** file
-  OR
-  - From terminal execute cmd as shown below
+    Click on the **_game.py_** file
+       
+       OR
+       
+    From terminal execute cmd as shown below
     ``` 
     C:\>python game.py
     ```
@@ -60,7 +64,7 @@ After this Computer chooses a option for itself in the Game. And then based on t
  SkyNet-X throws: Spock           Player-X throws: Scissor          -----> SkyNet-X Wins <-----
  ***********************************************************************************************
 ```
-As you can see the above match is won by _SkyNet-X_. Its the computer Name of the Game
+As you can see the above match is won by _SkyNet-X_(A computer opponent in the Game)
 
 - User can play multiple rounds to their wish. And see the overall score. For this user need to enter option **S** , Its for _Get Play Score_
 
@@ -87,7 +91,10 @@ X . Exit Play
 Enter Option to play:
 ```
 - Unlike Player v/s Computer this window has no options for choice of objects. It has only option to start the **Play**(a.k.a Fight). Enter option **P** to initiate the match and then wait for the count down when each of the computer throw a object of their choice.
-```         Option List
+```      
+Enter Option to play: P
+
+         Option List
 ----------------------------------------
 P . Throw
 S . Check Score
