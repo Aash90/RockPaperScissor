@@ -121,3 +121,26 @@ Here also the Winner is decided by the same rules as per [GAME_RULES](https://gi
 Enter Option to play: S
 ```
 
+# Extensibility
+
+- Current Game supports 5 Objects
+1 . Rock
+2 . Paper
+3 . Scissor
+4 . Lizard
+5 . Spock
+
+And these Objects are defined in [GAME_RULES](https://github.com/Aash90/RockPaperScissor/blob/master/game_objects.py).
+This file can be used to extend the game to as many Objects required. Just add the Object and its associated **"beats_to" and "lose_to"** list
+For e.g
+```
+"Rock":{
+                "beats_to" : ["Scissor", "Lizard"],
+                "lose_to"  : ["Paper", "Spock"]
+        }
+```
+In the above example the rule is defined for the "Rock" object.
+    - The **"beats_to"** value is a _list of Objects which are defeated by Rock(i.e lose againts Rock)_
+    - The **"lose_to"** value is a _list of Objects which defeat the Rock(i.e beats Rock)_
+So in order to extend the game for more and more objects. User is required to add these rules and an entry in the GAME_RULES object as shonw in above sample. 
+        
